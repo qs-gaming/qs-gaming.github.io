@@ -41,6 +41,21 @@
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://qs-gaming.github.io/title.png" alt="qs nesquik" width="473" height="189" /></p>
 
 <div class="container">
-  <img style="display: block; margin-left: auto; margin-right: auto;" src="https://qs-gaming.github.io/members.png" alt="okay" width="348" height="139" />
+  <img style="display: block; margin-left: auto; margin-right: auto;" src="https://qs-gaming.github.io/members.png" alt="okay" width="348" height="139" id="theme" />
   <div class="centered">vilotack, boyel</div>
 </div>
+
+<script>
+
+function changeImage()
+{
+var img = document.getElementById("theme");
+img.src="membercolor.png";
+return false;
+}
+  
+</script>
+
+<button id="clickme" onclick="changeImage();">paint</button>
+
+
